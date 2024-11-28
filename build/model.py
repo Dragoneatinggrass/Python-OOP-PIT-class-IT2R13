@@ -102,3 +102,9 @@ class ResultDisplay:
         """Displays results in a user-friendly format."""
         for index, result in enumerate(results, start=1):
             print(f"Result {index}: {result}")
+    
+    def clear_display(entry_widget: Text):
+        #Clear the display
+        entry_widget.delete(1.0, "end")
+        print("")
+        
