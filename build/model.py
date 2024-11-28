@@ -102,3 +102,6 @@ class ResultDisplay:
         """Displays results in a user-friendly format."""
         for index, result in enumerate(results, start=1):
             print(f"Result {index}: {result}")
+
+    def clear_display():
+        print("")
